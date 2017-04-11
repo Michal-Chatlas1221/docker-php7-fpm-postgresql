@@ -1,4 +1,4 @@
-FROM php:7-fpm
+FROM php:7.1-fpm
 # Install modules
 RUN buildDeps="libpq-dev libzip-dev libicu-dev" && \
     apt-get update && \
